@@ -1,1 +1,58 @@
-style.css
+.brand-logo {
+    margin-left: 20px;
+}
+
+nav .brand-logo {
+    position: absolute;
+    color: #16a085;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.color{
+	background-color: hotpink;
+}
+i.tiny {
+    font-size: 1rem;
+    color: deeppink;
+    font-weight: bold;
+}
+
+body {
+    background-color:#2ecc71;
+}
+
+nav {
+    background-color: #34495e;
+}
+
+#card {
+    margin-top: 35px;
+}
+
+.card {
+    color: black;
+}
+label{
+	color:green;
+}
+
+
+
+[type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    z-index: 0;
+    border: 2px solid deeppink;
+    margin-top: 2px;
+    transition: .2s;
+    border-radius: 20px;
+}
+
+

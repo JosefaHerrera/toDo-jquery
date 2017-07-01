@@ -1,1 +1,64 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>To Do Jquery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <!-- ICON MATERIALIZE -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">To Do App</a>
+        </div>
+    </nav>
+
+
+    <!-- card -->
+    <section id="card">
+        <div class="row">
+            <div class="col m10 push-m1 m1 color card-panel hoverable">
+                <div class="card">
+                    <div class="card-content">
+                        <input placeholder="Ingresa la tarea" id="tareainicial" type="text" class="validate">
+                        <p>To Do Items:</p>
+                        <div id="nueva-tarea">
+                            <!--Aqui se agregaran los nuevos comentarios-->
+                        </div>
+
+
+                    </div>
+                    <div class="card-content">
+                        <hr>
+                    </div>
+                    <div class="card-content">
+                        <p>Completed Items:</p>
+
+                        <div id="comentarioslistos">
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
