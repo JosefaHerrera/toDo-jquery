@@ -1,4 +1,5 @@
 //todas las funciones parten con .ready
+// '' comillas simples para id y "" para class , empezara ocupar los dos metodos 
 $(document).ready(function() {
 
     var contadorTareas = 0;
